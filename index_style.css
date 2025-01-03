@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{ 
+    display: flex;
+    min-height: 100vh;
+}
+.partA{ 
+    width: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partB{ 
+    width: 80%;
+    min-height: 100vh;
+
+    background-image: url('https://th.bing.com/th/id/R.c7227a290e34b91af4564bc5ac616746?rik=EK7j41CsKuTcXA&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
